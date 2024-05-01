@@ -1,0 +1,37 @@
+.work-timeline {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .vertical-timeline-element-date {
+    font-size: 14px; /* Adjust font size for the date */
+    margin: 50px;
+  }
+  
+  .vertical-timeline-element-title {
+    font-size: 18px; /* Adjust font size for the title */
+    text-align: left; /* Align title to the left */
+  }
+  
+  .vertical-timeline-element-content {
+    font-size: 14px; /* Adjust font size for the content */
+    text-align: left; /* Align content to the left */
+    background-color: #333333; /* Darker gray background color */
+    color: #ffffff; /* White text color */
+  }
+  
+  /* Further adjustments for smaller screens */
+  @media only screen and (max-width: 576px) {
+    .vertical-timeline-element-date {
+      font-size: 10px; /* Decrease font size for smaller screens */
+    }
+  
+    .vertical-timeline-element-title {
+      font-size: 14px; /* Decrease font size for smaller screens */
+    }
+  
+    .vertical-timeline-element-content {
+      font-size: 11px; /* Decrease font size for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,32 @@
+.home-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.home-container img {
+  width: 100%; /* Make the image responsive */
+  max-width: 200px; /* Set maximum width for the image */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure the image is centered */
+  float: left; /* Align the image to the left */
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  margin-bottom: 20px;
+  text-align: left;
+  clear: both; /* Ensure the paragraph starts below the image */
+}
+
+.home-container b {
+  font-weight: bold;
+}
+
+.home-container .contact,
+.home-container .work,
+.home-container .expertise {
+  font-weight: bold;
+  margin-top: 20px;
+}
